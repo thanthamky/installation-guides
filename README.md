@@ -62,7 +62,7 @@ sudo systemctl start postgresql.service
 
 sudo systemctl enable postgresql.service
 
-tc/postgresql/15/main/
+cd /etc/postgresql/15/main/
 
 sudo su
 
