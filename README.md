@@ -53,6 +53,7 @@ conda init
 
 # Install Postgresql
 
+```bash
 sudo apt update -y
 
 sudo apt install postgresql postgresql-contrib
@@ -89,3 +90,4 @@ exit ออกจาก su
 sudo apt install postgis postgresql-15-postgis-3
 
 ลองต่อ pgadmin แล้ว สร้าง db แล้ว create extension postgis;
+```
