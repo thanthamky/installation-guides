@@ -38,3 +38,12 @@ curl -SL https://github.com/docker/compose/releases/download/v2.29.1/docker-comp
 
 chmod +x ~/.docker/cli-plugins/docker-compose
 ```
+
+# Miniconda Installation
+
+```bash
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh -b
+source /home/$USER/miniconda3/bin/activate
+conda init
+```
